@@ -7,6 +7,7 @@
 			</div>
 			<div class="item">
 				<img src="/images/temp/face-1.jpg" />
+				<img class="over" src="/images/temp/face-2-over.jpg" />
 			</div>
 			<div class="item">
 				<img src="/images/temp/face-1.jpg" />
@@ -22,7 +23,7 @@
 		$('.widget-faces .item .over').eraser({
 		    completeRatio: .5,
 		    completeFunction: function() {
-		    	alert('50% стерто!');
+		    	console.log('50% стерто!');
 		    }
 		});
 	});
