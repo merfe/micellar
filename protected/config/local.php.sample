@@ -1,0 +1,52 @@
+<?php
+
+return array(
+    'modules' => array(
+        'gii' => array(
+            'class' => 'system.gii.GiiModule',
+            'password' => 'password',
+        ),
+        'ycm' => array(
+            'username' => 'username',
+            'password' => 'password',
+        ),
+    ),
+    'components' => array(
+        'db' => array(
+            'connectionString' => 'mysql:host=localhost;dbname=dbname',
+            'username' => 'username',
+            'password' => 'password',
+            'tablePrefix' => '',
+        ),
+
+        'pinba' => array(
+            'on' => false,
+        ),
+
+        //for memcache
+        /*
+        'cache' => array(
+            'class' => 'CMemCache',
+            'servers' => array(
+                array(
+                    'host' => 'localhost',
+                    'port' => 11211,
+                ),
+            ),
+        ),
+        */
+
+        'log' => array(
+            'class' => 'CLogRouter',
+            'routes' => array(
+                'sql_logger' => array(
+                    'class' => 'CFileLogRoute',
+                    'categories' => 'system.db.*',
+                    'logFile' => 'sql.log',
+                    'maxLogFiles' => 10,
+                    'maxFileSize' => 155360,
+                ),
+            ),
+        ),
+    )
+);

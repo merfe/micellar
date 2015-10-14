@@ -1,0 +1,147 @@
+@font-face {
+	font-family: 'PN';
+	src: url('../fonts/ProximaNova-Regular.eot');
+	src: local('☺'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype'), url('../fonts/ProximaNova-Regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PN';
+	src: url('../fonts/ProximaNova-Bold.eot');
+	src: local('☺'), url('../fonts/ProximaNova-Bold.woff') format('woff'), url('../fonts/ProximaNova-Bold.ttf') format('truetype'), url('../fonts/ProximaNova-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PN';
+	src: url('../fonts/ProximaNova-Light.eot');
+	src: local('☺'), url('../fonts/ProximaNova-Light.woff') format('woff'), url('../fonts/ProximaNova-Light.ttf') format('truetype'), url('../fonts/ProximaNova-Light.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PN';
+	src: url('../fonts/ProximaNova-Light.eot');
+	src: local('☺'), url('../fonts/ProximaNova-Light.woff') format('woff'), url('../fonts/ProximaNova-Light.ttf') format('truetype'), url('../fonts/ProximaNova-Light.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PN';
+	src: url('../fonts/ProximaNova-Semibold.eot');
+	src: local('☺'), url('../fonts/ProximaNova-Semibold.woff') format('woff'), url('../fonts/ProximaNova-Semibold.ttf') format('truetype'), url('../fonts/ProximaNova-Semibold.svg') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+
+html,
+body {
+	background: #fff;
+	min-height: 100%;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 15px;
+	height: 100%;
+	color: #fff;
+	font-family: 'PN', Arial, Helvetica, sans-serif;
+}
+
+body * {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a { text-decoration: none; outline: none !important; color: #fff; }
+/*a:hover { text-decoration: underline; }*/
+
+input,
+select,
+textarea {
+	outline: none;
+}
+
+input,
+select {
+	-webkit-appearance: none;
+    -webkit-border-radius:0; 
+    border-radius:0;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: inset 0 0 0 50px #000 !important; /* Цвет фона */
+    -webkit-text-fill-color: #cbcbcb !important; /* цвет текста */
+    color: #cbcbcb !important; /* цвет текста */
+}
+
+h1 {
+	font-size: 36px;
+	text-transform: uppercase;
+	line-height: 1.5em;
+	margin-top: 0;
+}
+
+h3 {
+	font-weight: 300;
+	font-size: 26px;
+	line-height: 1.5em;
+}
+h4 {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+
+.container,
+.footer {
+	min-width: 1200px;
+}
+.container {
+	min-height: 100%;
+}
+.wrapper {
+	padding: 0 20px;
+	position: relative;
+	z-index: 3;
+}
+	.wrapper > div {
+		position: relative;
+		max-width: 1160px;
+		padding: 80px 0;
+		margin: 0 auto;
+	}
+.btn {	
+	transition-duration: 0.3s,0.3s,0.3s;
+}
+.btn:hover {
+	background: #000;
+	color: #e4bd27;
+}
+.clearfix:after,
+.list:after {
+	content: '';
+	display: block;
+	float: none;
+	clear: both;
+}
+.hidden {
+	display: none;
+}
+
+.left { float: left; }
+.right { float: right; }
+
+::-webkit-input-placeholder { color: #cbcbcb; font-family: 'PN', sans-serif; font-size: 15px; }
+::-moz-placeholder { color: #cbcbcb; font-family: 'PN', sans-serif; font-size: 15px;  }
+:-moz-placeholder { color: #cbcbcb; font-family: 'PN', sans-serif; font-size: 15px;  }
+:-ms-input-placeholder { color: #cbcbcb; font-family: 'PN', sans-serif; font-size: 15px;  }
+:-ms-input-placeholder { color: #cbcbcb; font-family: 'PN', sans-serif; font-size: 15px;  }
+
+.opened-modal {
+	width: 100%;
+	overflow: hidden;
+	min-height: 0;
+	height: 100%;
+}

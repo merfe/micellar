@@ -1,0 +1,825 @@
+@media (max-width: 768px) {
+
+	.mobile .subheader.home .description .arrow,
+	.mobile .wrapper.clients,
+	.mobile .header ul.menu,
+	.mobile .video-wrapper,
+	.mobile .mobile-hide,
+	.mobile .home-index-container .works,
+	.mobile .menu-wrapper.mobile-menu .projects {
+		display: none;
+		visibility: hidden;
+	}
+
+	.mobile .subheader,
+	.mobile .header,
+	.mobile .container,
+	.mobile .footer {
+		min-width:0;
+	}
+	.mobile .subheader.home .logo {
+		background: url('../images/mobile/logo.png') 50% 50% no-repeat;
+		background-size: 80% auto;
+		width: auto;
+	}
+	.mobile .ul-1 li {
+		width: 100%;
+		padding-left: 0;
+		margin-left: 0;
+		margin-top: 15px;
+		overflow: hidden;
+		height: auto;
+		margin-bottom: 15px;
+	}
+	.mobile .header {
+		position: absolute;
+		background: rgba(255,255,255, 0.2);
+	}
+	.mobile .subheader.home .description {
+		padding: 0;
+		font-size: 16px;
+		margin: 0 auto;
+		width: 260px;
+		line-height: 25px;
+	}
+	.mobile h1 {
+		font-size: 15px;
+		text-align: center;
+		letter-spacing: 1px;
+	}
+	.mobile h3 {
+		text-align: center;
+		width: 100%;
+		font-size: 15px;
+	}
+	.mobile .ratings h3 {
+		font-size: 16px;
+		padding: 0 5px;
+		text-transform: uppercase;
+		line-height: 1.5em;
+		margin-top: 0;
+		font-weight: bold;
+	}
+	.mobile .list.list-3x {
+		padding: 0 10px;
+	}
+	.mobile .list.list-3x .item {
+		width: 100%;
+	}
+	.mobile .works .item {
+		width: 100%;
+	}
+	.mobile .tc {
+        opacity: 1;
+        transform: none;
+        font-size: 22px;
+    }
+	.mobile .ul-1 .ico {
+		display: block;
+		margin: 0 auto;
+		position: static;
+	}
+	.mobile .ul-1 li .title {
+		margin-top: 30px;
+		text-align: center;
+		font-size: 14px;
+	}
+	.mobile .ul-1 li .description {
+		text-align: center;
+		display: block;
+		font-size: 16px;
+	}
+	.mobile .ratings h3 {
+		text-align: center;
+		margin: 0 0 20px 0;
+	}
+	.mobile .ratings .ul-1 .ico {
+		height: 50px;
+		width: 50px;
+	}
+	.mobile .ratings .ul-1 .num {
+		font-size: 26px;
+		line-height: 48px;
+		text-align: center;
+	}
+	.mobile .ratings .ul-1 .top {
+		text-align: center;
+		font-size: 12px;
+		padding: 9px;
+	}
+	.mobile .ratings .ul-1 .ico.ico-1 {
+		background-position: 7px 0px;
+		background-size: 91px;
+	}
+	.mobile .ratings .ul-1 .ico.ico-2 {
+		background-position: -44px 0;
+		background-size: 91px;
+	}
+
+	.mobile .wrapper.request > div,
+	.mobile .wrapper.vacancy > div {
+		background: none;
+		text-align: center;
+		padding: 20px 0;
+	}
+	.mobile .wrapper.request h3,
+	.mobile .wrapper.vacancy h3 {
+		width: 100%;
+	}
+	.mobile .request .modal-request,
+	.mobile .request .modal-vacancy {
+		display: block;
+	}
+	.mobile .request .modal .left {
+		width: 100%;
+	}
+	.mobile .request .modal .right {
+		width: 100%;
+		padding-left: 0;
+	}
+	.mobile .request .modal .left .field {
+		width: 48%;
+		display: inline-block;
+	}
+	.mobile .request .openmodal,
+	.mobile .modal.modal-request .close,
+	.mobile .modal.modal-request .top,
+
+	.mobile .vacancy .openmodal,
+	.mobile .modal.modal-vacancy .close,
+	.mobile .modal.modal-vacancy .top
+	{
+		display: none;
+	}
+	.mobile .request .modal.modal-vacancy,
+	.mobile .request .modal.modal-request {
+		position: static;
+		background: none;
+		padding: 0;
+		border: none;
+	}
+	.mobile .modal.modal-request > div,
+	.mobile .modal.modal-vacancy > div {
+		background: none;
+		width: 100%;
+		margin: 0 auto;
+		position: relative;
+		color: #000;
+		display: block;
+		min-width: 0;
+		border: none;
+	}
+	.mobile .modal.modal-request .form,
+	.mobile .modal.modal-vacancy .form {
+		padding: 0px;
+	}
+	.mobile .modal.modal-request form label,
+	.mobile .modal.modal-vacancy form label {
+		color: #44380c;
+		height: 25px;
+		text-align: left;
+		letter-spacing: 0;
+		line-height: 34px;
+		font-size: 10px;
+		padding-left: 10px;
+		margin-top: 0px;
+	}
+	.mobile form .field {
+		position: relative;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.mobile .modal.modal-request form input,
+	.mobile .modal.modal-request form select,
+	.mobile .modal.modal-request form textarea,
+	.mobile .modal.modal-request form .field-file,
+	.mobile .custom-select {
+		width: 97%;
+		color: #44380c;
+		font-size: 12px;
+		border: 1px solid #44380c;
+		padding: 2px 0px 0 6px;
+		height: 35px;
+	}
+
+	.mobile .modal.modal-request form input.error,
+	.mobile .modal.modal-request form select.error,
+	.mobile .modal.modal-request form textarea.error,
+	.mobile .modal.modal-request form .field-file.error,
+	.mobile .custom-select {
+		border: 1px solid #cd2c24;
+	}
+	.mobile #request-form .custom-select select,
+	.mobile #job-request-form .custom-select select {
+		border: medium none;
+	}
+	.mobile ::-webkit-input-placeholder { color: #66540c; font-size: 12px; }
+	.mobile ::-moz-placeholder { color: #66540c;font-size: 12px; }
+	.mobile :-moz-placeholder { color: #66540c;font-size: 12px; }
+	.mobile :-ms-input-placeholder { color: #66540c;font-size: 12px; }
+	.mobile :-ms-input-placeholder { color: #66540c;font-size: 12px; }
+
+	.mobile .footer .left,
+	.mobile .footer .right,
+	.mobile .footer .center {
+		display: block;
+		float: none;
+		height: auto;
+		padding: 20px 0 24px;
+		position: static;
+		text-align: center;
+		width: 100%;
+	}
+	.mobile .modal-request #request-form input[type="submit"],
+	.mobile .modal-vacancy #job-request-form input[type="submit"] {
+		border: 3px solid #000;
+		font-size: 12px;
+		color: #000;
+		margin-top: 10px;
+		padding-top: 5px;
+	}
+	.mobile .modal-request #request-form input[type="submit"] {
+		padding-top: 1px;
+	}
+	.mobile .custom-select .custom-text,
+	.mobile .custom-select.disabled span.custom-text:hover {
+		border: medium none;
+		color: #66540c;
+		text-align: left;
+	}
+	.mobile textarea#JobRequestForm_message {
+		height: 100px;
+	}
+	.mobile .custom-select .custom-text,
+	.mobile .custom-select.disabled span.custom-text:hover {
+		background: url("../images/ico/select-arrow-dark.png") no-repeat scroll right top transparent;
+	}
+	.mobile form select {
+		background: transparent url('../images/ico/select-arrow-dark.png') no-repeat right -8px;
+		padding-right: 35px;
+	}
+	.mobile .select-list {
+		background-color: #e4bd27;
+		border: 1px solid #000;
+		color: #66540c;
+		line-height: 18px;
+		padding: 0;
+		top: 49px;
+		width: 100% !important;
+	}
+
+	.mobile textarea#RequestForm_message {
+		height: 100px;
+	}
+
+	.mobile .select-list .selected,
+	.mobile .select-list li:hover {
+		color: #000;
+	}
+	.mobile .select-list li {
+		color: #66540c;
+	}
+	.mobile #request-form .field-textarea,
+	.mobile #job-request-form .field-textarea {
+		border: none;
+	}
+	.mobile form input[type="submit"]:hover,
+	.mobile .btn.dark:hover {
+		background: transparent;
+	}
+	.mobile .footer {
+		height: auto;
+		font-size: 15px;
+	}
+	.mobile .footer .phone {
+		margin-top: 10px;
+	}
+
+	/*menu button animation*/
+	.mobile .menu-button {
+		width: 22px;
+		height: 22px;
+		display: block;
+		position: absolute;
+		right: 25px;
+		top: 25px;
+	}
+	.mobile .menu-button span {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 3px;
+        border-radius: 2px;
+        background-color: #fff;
+        font-size: 0px;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-transition: background-color 1s;
+        -moz-transition: background-color 1s;
+        -ms-transition: background-color 1s;
+        -o-transition: background-color 1s;
+        transition: background-color 1s;
+    }
+	.mobile .menu-button span:before {
+        -webkit-transform: translateY(-250%);
+        -moz-transform: translateY(-250%);
+        -ms-transform: translateY(-250%);
+        -o-transform: translateY(-250%);
+        transform: translateY(-250%);
+    }
+	.mobile .menu-button span:before,
+	.mobile .menu-button span:after {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        border-radius: 2px;
+        content: '';
+        -webkit-transition: -webkit-transform 1s;
+        -moz-transition: -webkit-transform 1s;
+        -ms-transition: -webkit-transform 1s;
+        -o-transition: -webkit-transform 1s;
+        transition: transform 1s;
+    }
+	.mobile .menu-button span:after {
+        -webkit-transform: translateY(250%);
+        -moz-transform: translateY(250%);
+        -ms-transform: translateY(250%);
+        -o-transform: translateY(250%);
+        transform: translateY(250%);
+    }
+	.mobile .menu-button span:before,
+	.mobile .menu-button span:after {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        content: '';
+        -webkit-transition: -webkit-transform 1s;
+        -moz-transition: -webkit-transform 1s;
+        -ms-transition: -webkit-transform 1s;
+        -o-transition: -webkit-transform 1s;
+        transition: transform 1s;
+    }
+	.mobile .menu-opened.menu-button span {
+        background: transparent;
+    }
+	.mobile .menu-opened.menu-button span::before {
+        -webkit-transform: translateY(0px) rotate(45deg);
+        transform: translateY(0px) rotate(45deg);
+        -moz-transform: translateY(0px) rotate(45deg);
+        -ms-transform: translateY(0px) rotate(45deg);
+        -o-transform: translateY(0px) rotate(45deg);
+        transform: translateY(0px) rotate(45deg);
+    }
+	.mobile .menu-opened.menu-button span:after {
+        -webkit-transform: translateY(0) rotate(-45deg);
+        -moztransform: translateY(0) rotate(-45deg);
+        -ms-transform: translateY(0) rotate(-45deg);
+        -o-transform: translateY(0) rotate(-45deg);
+        transform: translateY(0) rotate(-45deg);
+    }
+	/* /menu button animation*/
+
+	.mobile .mobile-menu {
+		background: none repeat scroll 0 0 #000;
+		display: none;
+		height: 550px;
+		padding-bottom: 40px;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 4;
+	}
+	.mobile .mobile-menu li {
+        position: relative;
+        z-index: 5;
+    }
+	.mobile .menu-wrapper.mobile-menu .menu {
+        margin: 0;
+        min-width: 0;
+        padding: 0;
+        top: 100px;
+        width: 100%;
+    }
+	.mobile .menu-wrapper.mobile-menu li {
+        width: 100%;
+        margin: 15px 0;
+    }
+	.mobile .footer .copyright-bottom {
+		font-weight: 300;
+		font-size: 15px;
+		line-height: 30px;
+	}
+
+	.mobile .wrapper > div {
+		padding: 30px 0;
+	}
+	.mobile .subheader .caption .arrow {
+		background: url('../images/mobile/mobile-arrow.png') 50% 50% no-repeat;
+		height: 130px;
+		bottom: -130px;
+		left: 50%;
+		margin-left: inherit;
+	}
+
+	/*///PROJECTS///*/
+
+	.mobile .subheader.projects {
+		background: url('../images/mobile/p-bg.jpg') no-repeat scroll 80% 50% / cover rgba(0, 0, 0, 0);
+		padding-bottom: 20px;
+	}
+	.mobile .subheader .caption {
+		font-size: 22px;
+		letter-spacing: 0px;
+	}
+	.mobile .subheader.projects .list .item {
+		width: 100%;
+		margin-bottom: 35px;
+	}
+	.mobile .subheader.projects .caption {
+		margin-top: 220px;
+	}
+	.mobile .subheader.projects .title {
+		margin: 5px 0 35px 0;
+		letter-spacing: normal;
+		font-size: 16px;
+	}
+	.mobile .subheader.projects .list .data {
+		font-size: 14px;
+		color: #d2d2d2;
+	}
+	.mobile .subheader.projects .list .item label {
+		font-size: 13px;
+		padding: 20px 0 10px 0;
+	}
+	.mobile .subheader.projects .list .item .counter {
+		width: 90px;
+		height: 90px;
+		line-height: 90px;
+		font-size: 43px;
+		color: #fff;
+	}
+	.mobile .subheader.projects .list .item .counter .in-progress {
+		width: 30px;
+		height: 30px;
+		line-height: 32px;
+		font-size: 16px;
+	}
+	.mobile .subheader.projects .caption,
+	.mobile .subheader.projects .title,
+	.mobile .subheader.projects .list {
+		position: static;
+	}
+	.mobile .works .item .overlay {
+		opacity: 0;
+	}
+	.mobile .works .item .tc {
+		opacity: 0;
+	}
+	.mobile .works .item:hover img {
+		transform: none;
+	}
+	.mobile .works .item:hover .overlay {
+		opacity: 0;
+	}
+	.mobile .works .item .btns {
+		position: static;
+		margin-top: 20px;
+	}
+	.mobile .tc:hover {
+		opacity: 0;
+		transform: none;
+		transition: none;
+	}
+	.mobile .subheader.home {
+		background: url("../images/mobile/h-bg2.jpg") no-repeat scroll 0 50% rgba(0, 0, 0, 0);
+		min-height: 550px;
+		padding-bottom: 20px;
+	}
+
+	/*///SERVICES///*/
+
+	.mobile .our-services {
+		font-size: 14px;
+	}
+	.mobile .subheader.services {
+		background: url('../images/mobile/h-bg2.jpg') no-repeat scroll 0 50% / cover rgba(0, 0, 0, 0);
+		padding-bottom: 20px;
+	}
+	.mobile .our-services .step {
+		border: none;
+		margin: 10px 0 20px 0px;
+		padding: 10px 0 20px 0px;
+	}
+	.mobile .our-services .step .list .item {
+		width: 100%;
+	}
+	.mobile .our-services .step .list .title {
+		background: none;
+	}
+	.mobile .our-services .step .list ul {
+		padding-bottom: 30px;
+		padding-top: 10px;
+	}
+	.mobile .our-services .step .step-members {
+		padding: 20px 0 25px 0;
+		font-weight: 300;
+		font-size: 14px;
+	}
+	.mobile .our-services .step > div:first-child {
+		text-transform: uppercase;
+		font-size: 14px;
+	}
+	.mobile .our-services .step .list .title span {
+		font-weight: 500;
+		font-size: 16px;
+	}
+	.mobile .our-services .steps .step-title {
+		letter-spacing: 0px;
+		padding-left: 30px;
+		font-size: 14px;
+		line-height: 30px;
+	}
+	.mobile .our-services .step .list ul li {
+		padding: 2px 0 8px 24px;
+		font-size: 14px;
+	}
+	.mobile .our-services .steps .step-title .num {
+		-moz-border-radius: 50%;
+		-webkit-border-radius: 50%;
+		border-radius: 50%;
+		border: 2px solid #ffd400;
+		height: 20px;
+		width: 20px;
+		position: absolute;
+		top: 4px;
+		left: 0;
+		line-height: 18px;
+		font-size: 12px;
+		text-align: center;
+		letter-spacing: 0;
+	}
+
+	/*///COMPANY///*/
+
+	.mobile .subheader.company {
+		background: url("../images/mobile/c-bg2.jpg") no-repeat scroll 80% 50% / cover rgba(0, 0, 0, 0);
+	}
+	.mobile .subheader.company .caption {
+		font-size: 16px;
+		letter-spacing: 1px;
+	}
+	.mobile .subheader.company .caption .ico {
+		top: -110px;
+		background-size: 43px;
+	}
+	.mobile .history .description {
+		width: 100%;
+		font-size: 16px;
+	}
+	.mobile .timeline .funcion {
+		color: #f5f5f5;
+		font-size: 13px;
+	}
+	.mobile .timeline .item {
+		width: 100%;
+		float: left;
+	}
+	.mobile .timeline .num,
+	.mobile .timeline .num-item .over-left {
+		display: none;
+	}
+	.mobile .timeline .num,
+	.mobile .timeline .num-item .over-right {
+		width: 2px;
+		position: static;
+		height: 60px;
+		background: #ffd300;
+		margin-top: -1px;
+		margin: 0 auto 20px auto;
+		border: 2px solid #ffd300;
+		z-index: 1;
+	}
+	.mobile .list.list-3x .item {
+		padding: 0;
+	}
+	.mobile .company-index-container .instagram {
+		display: none;
+	}
+	.mobile .vacancies h3 {
+		font-size: 34px;
+		font-weight: 600;
+		margin: 20px 0;
+	}
+	.mobile .vacancies .description {
+		width: 100%;
+	}
+	.mobile .vacancies .btn {
+		margin-top: 10px;
+	}
+	.mobile .vacancies .btn:first-child {
+		margin-right: 7px;
+	}
+	.mobile .modal.modal-vacancy form input,
+	.mobile .modal.modal-vacancy form select,
+	.mobile .modal.modal-vacancy form textarea,
+	.mobile .modal.modal-vacancy form .field-file {
+		width: 97%;
+		color: #000;
+		border: 1px solid #44380c;
+		padding: 10px;
+		height: 35px;
+	}
+	.mobile .modal.modal-vacancy {
+		display: block;
+		position: static;
+		background: #E4BD27;
+		width: 100%;
+		padding-top: 0;
+	}
+	.mobile .modal-vacancy form .field {
+		padding-top: 0;
+	}
+	.mobile .modal-vacancy .fields-contants,
+	.mobile .modal-vacancy .fields-resume {
+		width: 100%;
+		padding-left: 0;
+	}
+	.mobile .modal-vacancy .fields-resume .field {
+		padding-top: 15px;
+	}
+	.mobile .modal-vacancy .fields-contants .field {
+		width: 48%;
+		display: inline-block;
+		padding-left: 0;
+		padding-top: 20px;
+	}
+	.mobile .modal-vacancy .fields-message {
+		width: 100%;
+		padding-left: 0px;
+		padding-top: 0px;
+	}
+	.mobile .modal-vacancy #job-request-form .field-file label {
+		color: #66540c;
+		margin-top: -3px;
+		font-size: 12px;
+	}
+	.mobile form .field-file {
+		background: url('../images/ico/add-dark.png') no-repeat 95% 50%;
+	}
+	.mobile .modal.modal-vacancy form label {
+		margin-top: 0;
+	}
+	.mobile .modal.modal-vacancy form .fields-message label.label-message {
+		padding-top: 0px;
+		padding-bottom: 35px;
+	}
+
+	/*///CONTACTS///*/
+
+	.mobile .contacts.wrapper > div {
+		padding: 10px 0 60px 0;
+	}
+	.mobile .subheader.contacts .caption {
+		text-align: center;
+	}
+	.mobile .subheader.contacts .left,
+	.mobile .subheader.contacts .right {
+		width: 100%;
+	}
+	.mobile .subheader.contacts .list .item {
+		display: inline-block;
+		min-width: 0;
+		margin: 0;
+		padding: 15px 0px 16px 0px;
+		font-size: 13px;
+		letter-spacing: 1px;
+		width: 48%;
+	}
+	.mobile .subheader.contacts .data {
+		padding-top: 7px;
+	}
+	.mobile .subheader.contacts .pdf {
+		padding-left: 42px;
+		background: url('../images/ico/pdf.png') no-repeat 0 0;
+		height: 53px;
+		display: block;
+		padding-top: 3px;
+		background-size: 23px;
+		padding-left: 32px;
+		font-size: 12px;
+	}
+	.mobile .subheader.contacts .list .item + .item {
+		margin: 0 0 0 2%;
+	}
+	.mobile .form-contacts form .left .left > .field {
+		width: 48%;
+		display: inline-block;
+	}
+	.mobile .form-contacts form .left .left > .field + .field {
+		float: right;
+	}
+	.mobile .subheader.contacts label {
+		font-weight: 300;
+	}
+	.mobile .subheader.contacts .list .item:last-child {
+		padding-right: 0;
+		width: 100%;
+	}
+	.mobile .subheader.contacts .title {
+		text-align: center;
+		padding-bottom: 25px;
+		font-size: 13px;
+		font-weight: 300;
+	}
+	.mobile .subheader .caption {
+		padding-bottom: 35px;
+	}
+	.mobile .subheader.contacts .right .title {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.mobile .form-contacts form .left {
+		width: 100%;
+	}
+	.mobile .form-contacts ::-webkit-input-placeholder { color: #cbcbcb; }
+	.mobile .form-contacts ::-moz-placeholder { color: #cbcbcb; }
+	.mobile .form-contacts :-moz-placeholder { color: #cbcbcb; }
+	.mobile .form-contacts :-ms-input-placeholder { color: #cbcbcb; }
+	.mobile .form-contacts :-ms-input-placeholder { color: #cbcbcb; }
+
+	.mobile .form-contacts form select {
+		background: transparent url('../images/ico/select-arrow.png') no-repeat right -8px;
+		font-size: 12px;
+	}
+	.mobile .form-contacts #request-form .field-textarea {
+		border: 1px solid #8f8f8f;
+	}
+	.mobile .form-contacts form .right {
+		width: 100%;
+		padding-left: 0px;
+	}
+	.mobile .form-contacts .label-message {
+		margin-top: 25px;
+	}
+	.mobile .contacts-index-container .form-contacts label {
+		margin-top: 25px;
+		font-size: 11px;
+	}
+	.mobile .form-contacts form input[type=submit], .btn.dark {
+		width: 100%;
+	}
+
+	.mobile .form-contacts form input,
+	.mobile .form-contacts form select,
+	.mobile .form-contacts form textarea,
+	.mobile .form-contacts form .field-file,
+	.mobile .form-contacts .custom-select {
+		padding: 0px 5px 0px 8px;
+		height: 35px;
+	}
+
+	/*minimize layout*/
+
+	.mobile .header .logo {
+		background-size: 70px;
+	}
+	.mobile .header {
+		height: 75px;
+		padding: 0 10px;
+	}
+	.mobile .wrapper .section-title {
+		font-size: 10px;
+	}
+	.mobile .list.list-3x .item .img {
+		height: 110px;
+		background-size: 50px;
+	}
+	.mobile .list.list-3x .item .title {
+		font-size: 15px;
+		min-height: 40px;
+	}
+	.mobile .wrapper.request h1 {
+		font-size: 17px;
+		margin-bottom: 0;
+		line-height: 20px;
+		text-align: left;
+		text-transform: none;
+	}
+	.mobile .wrapper.request h3 {
+		text-align: left;
+		font-size: 16px;
+	}
+
+
+} /* /media */
+
